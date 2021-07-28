@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Photo app</title>
+</head>
+<body>
+    <main>
+        <!-- CANVAS ES PARA DIBUJAR GRÁFICOS -->
+        <canvas id="canvas"></canvas>
+
+        <p>Proyecto de José Martínez Ríos &copy;</p>
+
+    </main>
+    <aside>
+
+        <!-- SELECCIONAR IMG DE ARCHIVOS -->
+        <div class="input-wrapper">
+            <label for="uploader">Selecciona archivo</label>
+            <input type="file" id="uploader">
+        </div>
+
+        <!-- EFECTOS DE LA IMG -->
+        <div class="effects">
+            <button>Escala de gris</button>
+            <button>Efecto sepia</button>
+            <button>Invertido</button>
+            <button>RGB - RBG</button>
+            <button>RGB - BGR</button>
+            <button>RGB - GBR</button>
+            <button>RGB - GRB</button>
+        </div>
+
+        <!-- DESCARGAR IMG -->
+        <div class="controls">
+            <button>Original</button>
+            <button>Descargar</button>
+        </div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>
